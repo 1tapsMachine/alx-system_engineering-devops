@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo file -s /tmp/iamafile
+file /tmp/iamafile
