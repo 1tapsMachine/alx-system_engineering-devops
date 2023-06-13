@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n '^' input.txt | grep -E '^[[:digit:]]*[13579]:' | cut -d':' -f2-
+paste -d, - - | cut -d, -f1
