@@ -1,97 +1,74 @@
-# Shell Variables and Expansions
+# Shell Scripting Tasks
 
-This repository contains solutions to various tasks related to shell variables and expansions. Each task is implemented as a separate script. Below is a brief description of each task along with an example of its usage.
+This repository contains shell scripts for various tasks related to shell scripting and command-line operations. Each script is designed to help you understand and practice different concepts in shell scripting.
 
-## Task 0: \<o> (Create an Alias)
-**Description:** This script creates an alias named `ls` with the value `rm *`. It demonstrates how to create aliases in the shell.
+## Resources
+Read or watch:
 
-[Go to Task 0 - 0-alias](./0x03-shell_variables_expansions/0-alias)
+- [Shell, I/O Redirection](https://linuxcommand.org/lc3_lts0070.php)
+- [Special Characters](https://mywiki.wooledge.org/BashGuide/SpecialCharacters)
 
-## Task 1: Hello You
-**Description:** This script prints "hello \<user>", where \<user> is the current Linux user. It showcases how to retrieve the current user in a script.
+Man or help:
 
-[Go to Task 1 - 1-hello_you](./0x03-shell_variables_expansions/1-hello_you)
+- `echo`
+- `cat`
+- `head`
+- `tail`
+- `find`
+- `wc`
+- `sort`
+- `uniq`
+- `grep`
+- `tr`
+- `rev`
+- `cut`
+- `passwd` (5) (i.e., `man 5 passwd`)
 
-## Task 2: The Path to Success is to Take Massive, Determined Action
-**Description:** This script adds the directory `/action` to the `PATH` environment variable, making it the last directory to search for programs.
+## Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-[Go to Task 2 - 2-path](./0x03-shell_variables_expansions/2-path)
+### Shell, I/O Redirection
+- Understand the commands `head`, `tail`, `find`, `wc`, `sort`, `uniq`, `grep`, `tr`, and what they do.
+- Know how to redirect standard output to a file.
+- Learn how to get standard input from a file instead of the keyboard.
+- Understand how to send the output from one program to the input of another program.
+- Learn how to combine commands and filters with redirections.
 
-## Task 3: If the Path be Beautiful, Let Us Not Ask Where it Leads
-**Description:** This script counts the number of directories in the `PATH` environment variable.
+### Special Characters
+- Understand what special characters are.
+- Learn about white spaces, single quotes, double quotes, backslash, comment, pipe, command separator, tilde, and how and when to use them.
 
-[Go to Task 3 - 3-paths](./0x03-shell_variables_expansions/3-paths)
+## Other Man Pages
+In addition to the resources mentioned above, explore the following man pages:
 
-## Task 4: Global Variables
-**Description:** This script lists environment variables.
+- `echo`: Learn how to display a line of text.
+- `cat`: Understand how to concatenate files and print on the standard output.
+- `rev`: Learn how to reverse a string.
+- `cut`: Understand how to remove sections from each line of files.
+- `passwd` (5): Discover what the `/etc/passwd` file is and understand its format.
+- `shadow` (5): Find out what the `/etc/shadow` file is and understand its format.
 
-[Go to Task 4 - 4-global_variables](./0x03-shell_variables_expansions/4-global_variables)
+## Copyright - Plagiarism
+Please note the following important information:
 
-## Task 5: Local Variables
-**Description:** This script lists all local variables, environment variables, and functions.
+- You are tasked to come up with solutions for the tasks yourself to meet the learning objectives.
+- Copying and pasting someone else's work is not allowed and will not help you meet the objectives.
+- Publishing any content of this project is not allowed.
+- Plagiarism in any form is strictly forbidden and will result in removal from the program.
 
-[Go to Task 5 - 5-local_variables](./0x03-shell_variables_expansions/5-local_variables)
+## Requirements
+General requirements for the scripts in this repository are as follows:
 
-## Task 6: Local Variable
-**Description:** This script creates a new local variable named `BEST` with the value `School`.
+- Allowed editors: vi, vim, emacs
+- All your scripts will be tested on Ubuntu 20.04 LTS.
+- All your scripts should be exactly two lines long (`$ wc -l file` should print 2).
+- All your files should end with a new line.
+- The first line of all your files should be exactly `#!/bin/bash`.
+- A README.md file, at the root of the folder of the project, describing what each script is doing.
+- You are not allowed to use backticks, `&&`, `||`, or `;`.
+- All your files must be executable.
+- You are not allowed to use `sed` or `awk`.
 
-[Go to Task 6 - 6-create_local_variable](./0x03-shell_variables_expansions/6-create_local_variable)
+**Note:** You do not have to learn about `fmt`, `pr`, `du`, `gzip`, `tar`, `lpr`, `sed`, and `awk` yet.
 
-## Task 7: Global Variable
-**Description:** This script creates a new global variable named `BEST` with the value `School`.
 
-[Go to Task 7 - 7-create_global_variable](./0x03-shell_variables_expansions/7-create_global_variable)
-
-## Task 8: Every Addition to True Knowledge is an Addition to Human Power
-**Description:** This script prints the result of adding 128 to the value stored in the `TRUEKNOWLEDGE` environment variable.
-
-[Go to Task 8 - 8-true_knowledge](./0x03-shell_variables_expansions/8-true_knowledge)
-
-## Task 9: Divide and Rule
-**Description:** This script prints the result of dividing the value stored in the `POWER` environment variable by the value stored in the `DIVIDE` environment variable.
-
-[Go to Task 9 - 9-divide_and_rule](./0x03-shell_variables_expansions/9-divide_and_rule)
-
-## Task 10: Love is Anterior to Life, Posterior to Death, Initial of Creation, and the Exponent of Breath
-**Description:** This script displays the result of raising the value stored in the `BREATH` environment variable to the power of the value stored in the `LOVE` environment variable.
-
-[Go to Task 10 - 10-love_exponent_breath](./0x03-shell_variables_expansions/10-love_exponent_breath)
-Certainly! Here's an updated version without the examples and code snippets:
-
-## Task 11: Binary to Decimal Conversion
-
-- [Go to Task 11 - 11-binary_to_decimal](./0x03-shell_variables_expansions/11-binary_to_decimal)
-
-## Task 12: Combination
-
-**Description:** This script prints all possible combinations of two letters (except "oo"). The combinations are in lowercase and alpha-ordered, starting with "aa".
-
-- [Go to Task 12 - 12-combinations](./0x03-shell_variables_expansions/12-combinations)
-
-## Task 13: Print Float
-
-**Description:** This script prints a number with two decimal places.
-
-The number will be stored in the environment variable `NUM`.
-
-- [Go to Task 13 - 13-print_float](./0x03-shell_variables_expansions/13-print_float)
-
-## Task 100: Decimal to Hexadecimal Conversion
-
-**Description:** This script converts a number from base 10 to base 16. The number in base 10 is stored in the environment variable `DECIMAL`. The script displays the number in base 16.
-
-- [Go to Task 100 - 100-decimal_to_hexadecimal](./0x03-shell_variables_expansions/100-decimal_to_hexadecimal)
-
-## Task 101: ROT13 Encryption
-
-**Description:** This script encodes and decodes text using the ROT13 encryption. It assumes ASCII encoding.
-
-- [Go to Task 101 - 101-rot13](./0x03-shell_variables_expansions/101-rot13)
-
-## Task 102: Print Every Other Line
-
-**Description:** This script prints every other line from the input, starting with the first line.
-
-- [Go to Task 102 - 102-odd](./0x03-shell_variables_expansions/102-odd)
-
-Feel free to customize the formatting, add more details, and include relevant links to the scripts in your repository.
