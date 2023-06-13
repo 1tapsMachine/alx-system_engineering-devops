@@ -93,5 +93,15 @@ The number will be stored in the environment variable `NUM`.
 **Description:** This script prints every other line from the input, starting with the first line.
 
 - [Go to Task 102 - 102-odd](./102-odd)
+# Task 103: I'm an instant star. Just add water and stir.
+
+**Description:** This shell script adds the two numbers stored in the environment variables WATER and STIR and prints the result. The numbers are in custom bases defined by the environment variables.
+
+- WATER is in base water.
+- STIR is in base stir.
+- The result is in base bestchol.
+
+
+- [Go to Task 103 - 103-water_and_stir](./103-water_and_stir)
 
 Feel free to customize the formatting, add more details, and include relevant links to the scripts in your repository.
