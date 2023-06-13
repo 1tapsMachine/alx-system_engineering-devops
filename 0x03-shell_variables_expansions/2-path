@@ -1,2 +1,2 @@
 #!/bin/bash
-set PWD PWD+":/action"
+export PWD='$PWD/action'
